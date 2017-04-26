@@ -2,8 +2,18 @@
 <html>
 	<head>
 	<meta charset="UTF-8">
+<style>
+.hello-container {
+	-webkit-animation: spin 10s infinite linear;
+}
+@-webkit-keyframes spin {
+	from {-webkit-transform: rotate(0deg);}
+	to   {-webkit-transform: rotate(359deg);}
+}
+
+</style>
 	<title>Hello world</title>
 	<body>
-		Hello world
+		<div class="hello-container">Hello world</div>
 	</body>
 </html>
